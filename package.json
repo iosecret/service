@@ -1,13 +1,13 @@
 {
   "name": "@iosecret/service",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "公共服务",
   "keywords": [
     "service",
     "xhr"
   ],
   "author": "水逆",
-  "homepage": "https://github.com/howieyi/fe-react#readme",
+  "homepage": "https://github.com/iosecret/service#readme",
   "license": "ISC",
   "typings": "dist/index.d.ts",
   "main": "dist/index.js",
@@ -20,13 +20,9 @@
     "package.json",
     "README.md"
   ],
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/howieyi/fe-react.git"
+    "url": "git+https://github.com/iosecret/service.git"
   },
   "scripts": {
     "clean": "rimraf dist",
@@ -34,7 +30,7 @@
     "prepublishOnly": "npm run build"
   },
   "bugs": {
-    "url": "https://github.com/howieyi/fe-react/issues"
+    "url": "https://github.com/iosecret/service/issues"
   },
   "dependencies": {
     "dayjs": "^1.10.6",
